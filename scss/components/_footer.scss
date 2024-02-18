@@ -1,0 +1,6 @@
+.texto-footer{
+    background-color: $colorGris;
+    @include text ($colorTextoFooter,10px);
+    text-align: end;
+    padding-right: 3rem;
+    }

@@ -1,0 +1,4 @@
+@mixin text($colorTexto,$tamanioTexto){
+    color: $colorTexto;
+    font-size: $tamanioTexto;
+}

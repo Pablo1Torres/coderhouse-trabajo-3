@@ -1,0 +1,55 @@
+//Estilos Globales para main
+main{
+    h2{
+        font-size: 300;
+        text-align: center;
+        color: $colorTituloMain;
+    }
+    .fotos-main{
+        width: 100%;
+    }
+// main carpeta inicio
+    .backgroundInicio{
+        background-color: nth($list: $coloresMain, $n: 1);
+    }
+// main carpeta productos
+.backgroundProductos{
+    background-color: nth($list: $coloresMain, $n: 2);
+}
+.contenedor-productos{
+    display: flex;
+    padding: auto;
+    flex-direction: column;}
+    
+.cardProducto{
+   margin: 5px;
+   }
+   @media only screen and (max-width:600px) {
+    .texto-productos{
+    font-size: 10px;}
+    }
+    @media only screen and (min-width:601px) and (max-width:900px) {
+    .texto-productos{
+    font-size: 14px;}
+    }
+    @media only screen and (min-width:901px) {
+    .texto-productos{
+    font-size: 18px;}
+    }
+// main carpeta nosotros
+.backgroundNosotros{
+    background-color: nth($list: $coloresMain, $n: 3);
+.texto-nosotros{
+    @include text ($colorTextoMain,16px);
+    padding: 10px;
+    }
+}
+// main carpeta contacto
+.backgroundContacto{
+    background-color: nth($list: $coloresMain, $n: 4);
+}
+.logo-red-social{
+    width: 3rem;
+    border-radius: 35%;
+}
+}

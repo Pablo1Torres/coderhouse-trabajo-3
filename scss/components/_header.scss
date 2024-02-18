@@ -1,0 +1,22 @@
+header{
+    background-color: $colorGris;
+    height: 43vh;
+    nav{
+        img{ width: 4rem;
+            border-radius: 50%;}
+        &:hover{
+            transform: scale(1.05);
+            transition: .31s;
+        }
+    }
+    h1{color: $colorTextoHeader;
+        text-align: center;
+    }
+}
+
+
+
+
+
+  
+    
